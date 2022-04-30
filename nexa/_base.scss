@@ -2,46 +2,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
 
 // reset style
-*{
-    color: inherit;
-    margin: 0;
+* {
+  color: inherit;
+  margin: 0;
 }
 
-body{
-    font-family: Poppins;
+body {
+  font-family: Poppins;
 }
 
-ul{
-    padding: 0;
-    list-style-type: none;
+ul {
+  padding: 0;
+  list-style-type: none;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-hr{
-    border: 0;
-    border-top: 1px dotted #efefef;
+hr {
+  border: 0;
+  border-top: 1px dotted #efefef;
 }
 
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }
 
-h1{
-    a{
-        color: blueviolet;
-    }
+h1 {
+  a {
+    color: blueviolet;
+  }
 }
 
-
-.note{
+.details {
+  .note {
     max-width: 1000px;
-    border: $base-border-thick;
+    border: $base-border-thick dashed $info;
     box-shadow: $base-box-shadow;
     padding: $base-padding;
     margin: $base-margin;
-    background-color: rgb(254, 219, 157);
+    background-color: #2e8b5733;
+}
+
+  .example {
+    max-width: 1000px;
+    // border: $base-border-thick;
+    box-shadow: $base-box-shadow;
+    padding: $base-padding;
+    margin-top: $base-margin;
+    background-color: #f1f1f1;
+  }
 
 }

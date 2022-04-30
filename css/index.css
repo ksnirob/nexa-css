@@ -30,13 +30,20 @@ h1 a {
   color: blueviolet;
 }
 
-.note {
+.details .note {
   max-width: 1000px;
-  border: 1px;
+  border: 1px dashed #f6c31c;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
   padding: 0.75rem;
   margin: 0.75rem;
-  background-color: rgb(254, 219, 157);
+  background-color: rgba(46, 139, 87, 0.2);
+}
+.details .example {
+  max-width: 1000px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  padding: 0.75rem;
+  margin-top: 0.75rem;
+  background-color: #f1f1f1;
 }
 
 .container {
