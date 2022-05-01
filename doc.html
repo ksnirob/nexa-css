@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <title>Nexa CSS Document</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar mb-3">
+      <div class="container">
+        <a href="index.html"><h1 class="site-title">Nexa CSS</h1></a>
+        <ul class="display-f">
+          <li>
+            <a href="doc.html" class="ml-1 text-hover-success">Documentation</a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/ksnirob/nexa-css"
+              class="ml-1 text-hover-success"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <!-- colors-->
+
+      <h2 class="mb-2">Colors</h2>
+      <span class="text-primary">primary</span> |
+      <span class="text-secondary">secondary</span> |
+      <span class="text-error">error</span> |
+      <span class="text-success">success</span> |
+      <span class="text-info">info</span> |
+      <span class="text-blue">blue</span> |
+      <span class="text-green">green</span> |
+      <span class="text-red">red</span> |
+      <span class="text-yellow">yellow</span> |
+      <span class="text-pink">pink</span> |
+      <span class="text-magenta">magenta</span> |
+      <span class="text-purple">purple</span> |
+      <span class="text-orange">orange</span> |
+      <span class="text-gray">gray</span> |
+      <span class="text-black">black</span> |
+      <span class="text-aqua">aqua</span> |
+      <span class="text-skyblue">skyblue</span>
+
+      <div class="details">
+        <div class="note">
+          <p>
+            Colorize text with color utilities by adding a
+            <span class="text-error">text-colorName</span> class. set the text
+            color of an element to any contextual class
+          </p>
+          <div class="example">
+            &lt;p class="text-primary"&gt; your text &lt;/p&gt;
+          </div>
+        </div>
+      </div>
+
+      <hr class="mt-2 mb-2" />
+
+      <!-- background colors-->
+
+      <h2 class="mb-2">Background Colors</h2>
+      <span class="bg-primary text-white">primary</span> |
+      <span class="bg-secondary text-white">secondary</span> |
+      <span class="bg-error text-white">error</span> |
+      <span class="bg-success text-white">success</span> |
+      <span class="bg-info text-white">info</span> |
+      <span class="bg-blue text-white">blue</span> |
+      <span class="bg-green text-white">green</span> |
+      <span class="bg-red text-white">red</span> |
+      <span class="bg-yellow text-white">yellow</span> |
+      <span class="bg-pink text-white">pink</span> |
+      <span class="bg-magenta text-white">magenta</span> |
+      <span class="bg-purple text-white">purple</span> |
+      <span class="bg-orange text-white">orange</span> |
+      <span class="bg-gray text-white">gray</span> |
+      <span class="bg-black text-white">black</span> |
+      <span class="bg-aqua text-white">aqua</span> |
+      <span class="bg-skyblue text-white">skyblue</span>
+
+      <div class="details">
+        <div class="note">
+          <p>
+            Change background color by adding a
+            <span class="text-error">bg-colorName</span> class. set the
+            background color of an element to any contextual class
+          </p>
+          <div class="example">
+            &lt;div class="bg-purple"&gt; your content &lt;/div&gt;
+          </div>
+        </div>
+      </div>
+
+      <hr class="mt-2 mb-2" />
+
+      <!-- background light / dark colors-->
+
+      <h2 class="mb-2">Background Light / Dark Colors</h2>
+      <span class="bg-primary-dark-8 text-white">primary-dark-8</span> |
+      <span class="bg-primary-dark-6 text-white">primary-dark-6</span> |
+      <span class="bg-primary-dark-4 text-white">primary-dark-4</span> |
+      <span class="bg-primary-dark-2 text-white">primary-dark-2</span> |
+      <span class="bg-primary text-white">primary</span> |
+      <span class="bg-primary-light-2 text-white">primary-light-2</span> |
+      <span class="bg-primary-light-4 text-white">primary-light-4</span> |
+      <span class="bg-primary-light-6 text-white">primary-light-6</span> |
+      <span class="bg-primary-light-8 text-white">primary-light-8</span>
+
+      <div class="details">
+        <div class="note">
+          <p>
+            Change background light / dark color by adding a
+            <span class="text-error">bg-colorName-dark-Number(1-8), </span>
+            class for the dark background. And
+            <span class="text-error">bg-colorName-light-Number(1-8), </span>
+            class for the light background. set the background light / dark
+            color of an element to any contextual class
+          </p>
+          <div class="example">
+            &lt;div class="bg-purple-dark-2"&gt; your content &lt;/div&gt;
+          </div>
+          <div class="example">
+            &lt;div class="bg-purple-light-2"&gt; your content &lt;/div&gt;
+          </div>
+        </div>
+      </div>
+
+      <hr class="mt-2 mb-2" />
+
+      <!-- hover-->
+
+      <h2 class="mb-2">Hover</h2>
+      <a class="text-white bg-blue text-hover-aqua bg-hover-primary">hover</a> |
+      <a class="text-purple text-hover-success">hover</a>
+
+      <div class="details">
+        <div class="note">
+          <p>
+            Apply hover effects to change background or text color by adding a
+            <span class="text-error">bg-hover-colorName</span> And
+            <span class="text-error">text-hover-colorName</span> class.
+          </p>
+          <div class="example">
+            &lt;div class="bg-hover-blue"&gt; your content &lt;/div&gt;
+          </div>
+          <div class="example">
+            &lt;a class="text-hover-magenta"&gt; your text &lt;/a&gt;
+          </div>
+        </div>
+      </div>
+
+      <hr class="mt-2 mb-2" />
+
+      <!-- buttons-->
+
+      <h2 class="mb-2">Buttons</h2>
+      <a href="" class="btn">deafult</a>
+      <a href="" class="btn-blue text-white">btn color</a>
+      <a href="" class="btn-purple text-white btn-hover-primary">btn color</a>
+
+      <div class="details">
+        <div class="note">
+          <p>
+            Nexa CSS includes several predefined button styles, by adding a
+            <span class="text-error">btn-colorName</span> And apply hover
+            effects to change background of the button
+            <span class="text-error">btn-hover-colorName</span> class.
+          </p>
+          <div class="example">
+            &lt;button class="btn-blue"&gt; Contact &lt;/button&gt;
+          </div>
+          <div class="example">
+            &lt;button class="btn-blue btn-hover-magenta"&gt; Contact
+            &lt;/button&gt;
+          </div>
+        </div>
+      </div>
+      <a href="" class="btn-border-skyblue">btn border</a>
+      <a
+        href=""
+        class="btn-border-red btn-hover-error text-red text-hover-white"
+        >btn border</a
+      >
+
+      <div class="details">
+        <div class="note">
+          <p>
+            Add the <span class="text-error">btn-hover-colorName</span> to make
+            outline buttons.
+          </p>
+          <div class="example">
+            &lt;button class="btn-border-blue"&gt; Contact &lt;/button&gt;
+          </div>
+        </div>
+      </div>
+
+      <hr class="mt-2 mb-2" />
+
+      <!-- fonts-->
+
+      <h2 class="mb-2">Fonts</h2>
+      <div class="font-sm">small font</div>
+      <div class="font-md">medium font</div>
+      <div class="font-xl">extra large</div>
+      <div class="font-xxl">double extra large</div>
+
+      <div class="details">
+        <div class="note">
+          <p>
+            Use the included utility classes to recreate the font size, by
+            adding a
+            <span class="text-error">font-sm, font-md, font-xl, font-xxl</span>
+            class.
+          </p>
+          <div class="example">
+            &lt;p class="font-xl"&gt; your text &lt;/p&gt;
+          </div>
+        </div>
+      </div>
+
+      <hr class="mt-2 mb-2" />
+
+      <!-- grid-->
+
+      <h2 class="mb-2">Grid Layout</h2>
+      <div class="row gap-2 justify-center">
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card">
+            <h3 class="card-title">Hey! There</h3>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              quas placeat repudiandae beatae, dicta temporibus corrupti
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card">
+            <h3 class="card-title">Hey! There</h3>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              quas placeat repudiandae beatae, dicta temporibus corrupti
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card">
+            <h3 class="card-title">Hey! There</h3>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              quas placeat repudiandae beatae, dicta temporibus corrupti
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card">
+            <h3 class="card-title">Hey! There</h3>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              quas placeat repudiandae beatae, dicta temporibus corrupti
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="details">
+        <div class="note">
+          <p>
+            grid system uses a series of containers, rows, and columns to layout
+            and align content.<br />
+            Using a single set of
+            <span class="text-error">col-*(1-12)-sm</span> classes, to make a
+            basic grid system that starts out stacked before becoming horizontal
+            with at the breakpoint. 5 breakpoints for diffrent devices <br />
+            <span class="text-error">xs</span> : 0px<br />
+            <span class="text-error">sm</span> : 480px<br />
+            <span class="text-error">md</span> : 720px<br />
+            <span class="text-error">lg</span> : 960px<br />
+            <span class="text-error">xl</span> : 1200px
+          </p>
+          <div class="example">
+            &lt;div class="col-12-xs col-5-sm col-3-xl"&gt;<br />
+            &emsp;&emsp; &lt;div class="card"&gt;<br />
+            &emsp;&emsp;&emsp;&lt;h3 class="card-title">Hey! There
+            &lt;/h3&gt;<br />
+            &emsp;&emsp;&emsp;&lt;p class="card-body"&gt;<br />
+            &emsp;&emsp;&emsp;&emsp;quas placeat repudiandae beatae, dicta
+            temporibus corrupti<br />
+            &emsp;&emsp;&emsp;&lt;/p&gt;<br />
+            &emsp;&emsp;&lt;/div&gt;<br />
+            &lt;/div&gt;
+          </div>
+        </div>
+      </div>
+
+      <hr class="mt-2 mb-2" />
+
+      <!-- spacing-->
+
+      <h2 class="mb-2">Spacing</h2>
+      <div class="bg-secondary-light-8 pl-4 pr-4 pt-4 pb-4 col-3-lg">
+        <span
+          class="bg-success ml-1 mr-1 mt-2 mb-2 pl-1 pr-1 pt-1 pb-1 text-white"
+          >Spacing</span
+        >
+      </div>
+
+      <div class="details">
+        <div class="note">
+          <p>
+            Nexa CSS includes a wide range of shorthand responsive margin and
+            padding utility classes to modify an element’s appearance.
+            <br /><br />
+            <span class="text-purple display-b"
+              >Where property is one of:
+            </span>
+            <span class="text-error">m</span> - for classes that set margin
+            <br />
+            <span class="text-error">p</span> - for classes that set padding
+            <br /><br />
+            <span class="text-purple display-b">Where sides is one of: </span>
+            <span class="text-error">t</span> - for classes that set margin-top
+            or padding-top<br />
+            <span class="text-error">b</span> - for classes that set
+            margin-bottom or padding-bottom<br />
+            <span class="text-error">l</span> - for classes that set margin-left
+            or padding-left<br />
+            <span class="text-error">r</span> - for classes that set
+            margin-right or padding-right <br /><br />
+            <span class="text-purple display-b">Where size is one of: </span>
+            <span class="text-error">0 - 5</span> for classes that set the
+            margin or padding <br />
+          </p>
+          <div class="example">
+            &lt;div class="ml-1 mr-1 mt-2 mb-2 pl-1 pr-1 pt-1 pb-1"&gt; your
+            content &lt;/div&gt;
+          </div>
+        </div>
+      </div>
+
+      <hr class="mt-2 mb-2" />
+
+      <!-- display-->
+
+      <h2 class="mb-2">Display</h2>
+      <div class="details">
+        <div class="note">
+          <p>
+            The display property in Nexa CSS is used to set an element’s display
+            property. The utilities such as block, inline etc are to set the
+            element’s display property by adding a
+            <span class="text-error">display-valueName</span> class.
+            <br /><br />
+            <span class="text-purple display-b">Where value is one of: </span>
+            <span class="text-error">n</span> - none <br />
+            <span class="text-error">i</span> - inline <br />
+            <span class="text-error">ib</span> - inlne-block <br />
+            <span class="text-error">b</span> - block <br />
+            <span class="text-error">f</span> - flex <br />
+          </p>
+          <div class="example">
+            &lt;p class="display-b"&gt; your content &lt;/p&gt;
+          </div>
+        </div>
+      </div>
+
+      <hr class="mt-2 mb-2" />
+
+      <!-- border radius-->
+
+      <h2 class="mb-2">Boreder Radius</h2>
+      <div class="bg-secondary-light-8 pl-4 pr-4 pt-4 pb-4 col-3-lg">
+        <span
+          class="bg-purple ml-1 mr-1 mt-2 mb-2 pl-1 pr-1 pt-1 pb-1 text-white br-lg"
+          >Border</span
+        >
+      </div>
+
+      <div class="details">
+        <div class="note">
+          <p>
+            Use the included utility classes to create the border size, by
+            adding a
+            <span class="text-error"
+              >br-default, br-none, br-xs ,br-sm, br-lg, br-full</span
+            >
+            class.
+          </p>
+          <div class="example">
+            &lt;div class="br-lg"&gt; your content &lt;/div&gt;
+          </div>
+        </div>
+      </div>
+
+      <hr class="mt-2 mb-2" />
+
+      <!-- opacity-->
+
+      <h2 class="mb-2">Opacity</h2>
+      <div class="bg-secondary-light-8 pl-4 pr-4 pt-4 pb-4 col-3-lg">
+        <span
+          class="bg-success ml-1 mr-1 mt-2 mb-3 pl-1 pr-1 pt-1 pb-1 text-white o-40"
+          >opacity</span
+        ><br /><br />
+        <span
+          class="bg-success ml-1 mr-1 mt-2 mb-2 pl-1 pr-1 pt-1 pb-1 text-white o-60"
+          >opacity</span
+        ><br /><br />
+        <span
+          class="bg-success ml-1 mr-1 mt-2 mb-2 pl-1 pr-1 pt-1 pb-1 text-white o-80"
+          >opacity</span
+        >
+      </div>
+
+      <div class="details">
+        <div class="note">
+          <p>
+            Set the opacity of an element by adding
+            <span class="text-error"
+              >o-10, o-20, o-30, o-40, o-50, o-60, o-70, o-80, o-90, o-100</span
+            >
+            class.
+          </p>
+          <div class="example">
+            &lt;p class="display-b"&gt; your content &lt;/p&gt;
+          </div>
+        </div>
+      </div>
+
+      <hr class="mt-2 mb-2" />
+    </div>
+  </body>
+</html>
